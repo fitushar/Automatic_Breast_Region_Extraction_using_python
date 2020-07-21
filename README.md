@@ -15,7 +15,7 @@ Here is public dataset to try the code: https://www.dclunie.com/pixelmedimagearc
 
 ![Simple Preocess](https://github.com/fitushar/Automatic_Breast_Region_Extraction_using_python/blob/master/Figure/Process.png)
 
-## Code is blow
+## Code is below
 ```ruby
 ## import Libararies
 import cv2
