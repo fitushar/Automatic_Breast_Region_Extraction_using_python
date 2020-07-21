@@ -102,9 +102,20 @@ def Ploting_function(dcm,dcm_roi):
     plt.tight_layout()
     #plt.close()
     return
-
-
 ```
+
+### Sample Run:
+```ruby
+one_dcm='1.3.6.1.4.1.5962.99.1.2280943358.716200484.1363785608958.532.0.dcm'
+ds  =pydicom.read_file(one_dcm)
+dcm = Flip_memo(ds)
+ret,thresh = cv2.threshold(dcm,60,255,0)
+Breast_roi=Generate_Brest_roi_mask(thresh)
+Ploting_function(dcm,Breast_roi)
+```
+![Simple Preocess](https://github.com/fitushar/Automatic_Breast_Region_Extraction_using_python/blob/master/Figure/demo1.png)
+![Simple Preocess](https://github.com/fitushar/Automatic_Breast_Region_Extraction_using_python/blob/master/Figure/demo2.png)
+![Simple Preocess](https://github.com/fitushar/Automatic_Breast_Region_Extraction_using_python/blob/master/Figure/demo3.png)
 
 
 
