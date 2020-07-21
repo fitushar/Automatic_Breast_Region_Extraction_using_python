@@ -13,5 +13,5 @@ Here is public dataset to try the code: https://www.dclunie.com/pixelmedimagearc
    v) Finally dilat the mask to recover the eroded Breast Region
 ```  
 
-![Simple Preocess](https://github.com/fitushar/3D-GuidedGradCAM-for-Medical-Imaging/blob/master/figures/example1.PNG)
+![Simple Preocess](https://github.com/fitushar/Automatic_Breast_Region_Extraction_using_python/blob/master/Figure/Process.png)
 
