@@ -4,7 +4,7 @@ Brest region extraction from the memogram often the initaial stage to do image a
 Here is public dataset to try the code: https://www.dclunie.com/pixelmedimagearchive/upmcdigitalmammotomocollection/index.html
 
 
-## Brest Region Extraction Algorithm works as following: Jupyter notebook have all the codes
+### Brest Region Extraction Algorithm works as following: Jupyter notebook have all the codes
 ```ruby  
    i) Load Dicom and Threshold based on your vendor
   ii) Connected Component Analaysis and Keep the Largest Mask
