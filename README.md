@@ -1,5 +1,5 @@
 # Automatic_Breast_Region_Extraction_using_python
-Brest region extraction from the memogram often the initaial stage to do image analysis or dignosis. This Repo contains Python Implementation of an Automatic approach to Extraction Breast Region from Memogram. All you need to do is to set the threshold based on your memogram vendor, Different vendors could have different pixel values.
+Braest region extraction from the memogram often the initaial stage to do image analysis or dignosis. This Repo contains Python Implementation of an Automatic approach to Extraction Breast Region from Memogram. All you need to do is to set the threshold based on your memogram vendor, Different vendors could have different ranges
 
 Here is public dataset to try the code: https://www.dclunie.com/pixelmedimagearchive/upmcdigitalmammotomocollection/index.html
 
