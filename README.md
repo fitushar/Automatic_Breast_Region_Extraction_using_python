@@ -17,7 +17,7 @@ Here is public dataset to try the code: https://www.dclunie.com/pixelmedimagearc
 
 ## Code is below
 ```ruby
-## import Libararies
+## import Libraries
 import cv2
 import numpy as np
 import os, glob
